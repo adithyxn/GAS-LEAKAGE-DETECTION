@@ -1,3 +1,3 @@
-# GAS LEAKAGE DETECTION
+# LPG GAS LEAKAGE DETECTION
 
-The project requires an mq5 sensor for gas leakage detection,Node MCU board for processing,Servo for the movement of the gas valve if present The project also employs the use of push bullet service which is responsible for pushing the notification to the users device
+This project presents a gas leak detection system designed to detect methane gas using an MQ-5 gas sensor and Node MCU board for processing.The system continuously monitors gas concentrations, triggering a notification when the concentration exceeds a predefined threshold. The notification is sent via the Pushbullet API service, providing real-time alerts to users on their mobile devices or computers. A Servo is used to represent the movement of the gas valve when triggered during leak detection. Hence forming a LPG gas leakage detection system.
